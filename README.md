@@ -1,10 +1,9 @@
-# YHaoUI 为餐饮系统量身设计
-====
+# YHaoUI 为移动端餐饮系统量身设计
 
 ## 概述
 
-YHaoUI是一套基于微信官方样式库weui深度开发的基础组件库，同微信原生视觉体验一致，主要用于微信内网页，小程序等开发。后期将增加Vue版本
-除了包含Weui所有功能外，还增加了`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
+YHaoUI是一套基于微信官方样式库weui以及开发规范的移动端基础组件库，同微信原生视觉体验一致，主要用于在微信内开发餐饮服务产品，兼容目前主流操作系统包括ios,Android,后期将增加PC端，VUE版本
+除了包含官方Weui所有功能外，还增加了`flex布局`、`购物车`、`侧边导航`、 `幕布`、 `icon`等组件以及元素。
 
 ## 手机预览
 
@@ -12,11 +11,10 @@ YHaoUI是一套基于微信官方样式库weui深度开发的基础组件库，�
 
 [https://weui.io](https://weui.io)
 
-老版本: [https://weui.io/0.4.x](https://weui.io/0.4.x)
 
 ## 文档
-- WeUI 说明文档参考 [Wiki](https://github.com/weui/weui/wiki)
-- WeUI 视觉标准参考 [weui-design](https://github.com/weui/weui-design)
+- YHaoUI 说明文档参考 [Wiki](https://github.com/weui/weui/wiki)
+- YHaoUI 视觉标准参考 [weui-design](https://github.com/weui/weui-design)
 
 ## 扩展
 - [WeUI for 小程序 (weui-wxss)](https://github.com/weui/weui-wxss/)
@@ -26,8 +24,10 @@ YHaoUI是一套基于微信官方样式库weui深度开发的基础组件库，�
 ## License
 The MIT License(http://opensource.org/licenses/MIT)
 
-请自由地享受和参与开源
+请自由地享受和享受开源
+欢迎贡献自己代码
 
 ## 贡献
 
-如果你有好的意见或建议，欢迎给我们提issue或pull request，为提升微信web体验贡献力量
+如果你有好的意见或建议，欢迎给我们提issue或pull request，为提升移动端体验而努力
+欢迎邮件沟通：1757946693@qq.com 心的烙印
