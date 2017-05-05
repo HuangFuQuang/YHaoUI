@@ -1,0 +1,135 @@
+@import "../../../base/fn";
+
+.yhao-cells_quan {
+  position: relative;
+  .yhao-cell__hd {
+    padding-right: @weuiCellInnerGapH;
+    background: #ff5b5a;
+    color: #ffffff !important;
+    height: 92px;
+    line-height: 98px;
+    width: 27.5%;
+    border-radius: 6px;
+    position: relative;
+    text-align: center;
+    &:after {
+      font-family: yhaoui;
+      content: "\e609";
+      position: absolute;
+      font-size: 65px;
+      top: 0;
+      right: -32px;
+      color: #ffffff;
+    }
+    &:before {
+      font-family: yhaoui;
+      content: "\e609";
+      position: absolute;
+      font-size: 65px;
+      top: 0;
+      right: -33.5px;
+      color: #ff5b5a;
+    }
+    i{
+      font-size: 40px;
+      color: #ffffff;
+      height: 100%;
+      line-height: 200%;
+      &:before,&:after{
+        margin: 0;
+        font-size: 16px;
+        vertical-align: 2%;
+      }
+    }
+  }
+  .yhao-cell__bd{
+    padding-left: 15px;
+    .yhao-cell_bd_title{
+      font-size: 16px;
+      color: #333333;
+    }
+    .yhao-cell_bd_items {
+      margin-left: 12px;
+      li{
+        font-size: 12px;
+        color: #999999;
+        position: relative;
+        &:before{
+          content: "";
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background: #999999;
+          position: absolute;
+          left: -11px;
+          top: 5px;
+        }
+      }
+    }
+
+  }
+  .yhao-cell {
+    border: 1px solid #cccccc;
+    border-left: none;
+    border-radius: 6px;
+    margin: 10px;
+    height: 90px;
+    padding: 0;
+    &:before {
+      width: 13px;
+      height: 7.5px;
+      border: 1px solid #cccccc;
+      border-bottom: none;
+      border-radius: 7.5px 7.5px 0 0;
+      background: #ffffff;
+      left: 27%;
+      bottom: -1px;
+      transform: scaleY(1);
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 13px;
+      height: 7.5px;
+      border: 1px solid #cccccc;
+      border-top: none;
+      border-radius: 0 0 7.5px 7.5px;
+      background: #fff;
+      left: 27%;
+      top: -1px;
+    }
+  }
+}
+.yhao-check {
+  // quan
+  .yhao-cells_quan & {
+    & + .weui-icon-checked_2{
+      &:before {
+        display: block;
+        content: '\EA06';
+        color:#e4e4e4;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+    }
+    &:checked {
+      & + .weui-icon-checked_1 {
+        &:before {
+          display: block;
+          content: '\EA08';
+          color: #09BB07;
+          font-size: 16px;
+        }
+      }
+      & + .weui-icon-checked_2 {
+        &:before {
+          display: block;
+          content: '\EA06';
+          color: #ff5b5a;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

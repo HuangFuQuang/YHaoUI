@@ -1,0 +1,11 @@
+/*底部1像素*/
+.yhao-check__label {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.yhao-check__label:active {
+  background-color: #ECECEC;
+}
+.yhao-check {
+  position: absolute;
+  left: -9999em;
+}

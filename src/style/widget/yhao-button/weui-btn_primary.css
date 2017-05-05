@@ -1,0 +1,11 @@
+/*底部1像素*/
+.weui-btn_primary {
+  background-color: #1aad19;
+}
+.weui-btn_primary:not(.weui-btn_disabled):visited {
+  color: #ffffff;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #179b16;
+}

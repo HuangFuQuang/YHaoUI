@@ -1,0 +1,42 @@
+/*底部1像素*/
+.yhao-cells_order {
+  position: relative;
+  color: #666666;
+  margin-bottom: 0;
+}
+.yhao-cells_order .yhao-cell {
+  display: block;
+}
+.yhao-cells_order .yhao-cell__hd {
+  padding-right: 0.35em;
+  width: 27.5%;
+  color: #666666!important;
+  float: left;
+  display: table;
+  height: 42px;
+}
+.yhao-cells_order .yhao-cell__hd p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.yhao-cells_order .yhao-cell__bd {
+  float: left;
+  margin-top: 13px;
+}
+.yhao-cells_order .yhao-cell__bd i:before {
+  font-size: 14px;
+}
+.yhao-cells_order .yhao-cell__fd {
+  width: 100%;
+  clear: both;
+}
+.yhao-cells_order .yhao-cell__fd .yhao-cell_fd_num {
+  float: right;
+  margin-right: 114px;
+  color: #999999;
+}
+.yhao-cells_order .yhao-cell__bz {
+  width: 25%;
+  font-size: 14px;
+  color: #999999;
+}

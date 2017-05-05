@@ -1,0 +1,68 @@
+@import "../../base/fn";
+/*左侧导航栏*/
+.yhao-Left-Nav{
+  width: 100%;
+}
+.yhao-Left-Nav__item{
+   padding-left: @yhao-Left-Nav__itemPD;
+  padding-right: @yhao-Left-Nav__itemPD;
+  height: @yhao-Left-Nav__itemH;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  display: table;
+  div{
+    display: table-cell;
+    vertical-align:middle;
+    width: 100%;
+  }
+}
+
+.yhao-Left-Nav__item.yhao-Left-Active {
+  color: @yhaoLeftActive;
+  background: @yhaoLeftActiveBg;
+  &:before{
+    .setfont("\e623","yhaoui");
+    color: @yhaoLeftActive;
+    font-size: 12px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+}
+
+/*右侧导航栏*/
+.yhao-Right-Nav{
+  width: 100%;
+  padding: 10px;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+.yhao-Right-Nav__item{
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+  &:after{
+    .setBottomLine(@weuiLineColorGray)
+  }
+}
+/*底部导航栏*/
+.yhao-Bottom-Nav{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: @yhaoBottomNavH;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/*底部导航栏big*/
+.yhao-Big-Bottom-Nav{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: @yhaoBottomNavH*2+6;
+  box-sizing: border-box;
+  overflow: hidden;
+}

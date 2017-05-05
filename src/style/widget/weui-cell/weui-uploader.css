@@ -1,0 +1,98 @@
+/*底部1像素*/
+.weui-uploader__hd {
+  display: flex;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.weui-uploader__title {
+  flex: 1;
+}
+.weui-uploader__info {
+  color: #b2b2b2;
+}
+.weui-uploader__bd {
+  margin-bottom: -9px;
+  margin-right: -9px;
+  overflow: hidden;
+}
+.weui-uploader__files {
+  list-style: none;
+}
+.weui-uploader__file {
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  width: 79px;
+  height: 79px;
+  background: no-repeat center center;
+  background-size: cover;
+}
+.weui-uploader__file_status {
+  position: relative;
+}
+.weui-uploader__file_status:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.weui-uploader__file_status .weui-uploader__file-content {
+  display: block;
+}
+.weui-uploader__file-content {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+}
+.weui-uploader__file-content .weui-icon-warn {
+  display: inline-block;
+}
+.weui-uploader__input-box {
+  float: left;
+  position: relative;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  width: 77px;
+  height: 77px;
+  border: 1px solid #d9d9d9;
+}
+.weui-uploader__input-box:before,
+.weui-uploader__input-box:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d9d9d9;
+}
+.weui-uploader__input-box:before {
+  width: 2px;
+  height: 39.5px;
+}
+.weui-uploader__input-box:after {
+  width: 39.5px;
+  height: 2px;
+}
+.weui-uploader__input-box:active {
+  border-color: #999999;
+}
+.weui-uploader__input-box:active:before,
+.weui-uploader__input-box:active:after {
+  background-color: #999999;
+}
+.weui-uploader__input {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

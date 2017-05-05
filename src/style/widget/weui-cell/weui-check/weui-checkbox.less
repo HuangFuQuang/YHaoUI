@@ -1,0 +1,39 @@
+@import "../../../base/fn";
+
+.yhao-cells_checkbox {
+    .yhao-cell__hd {
+        padding-right: @weuiCellInnerGapH;
+    }
+}
+
+.yhao-check {
+    // radio
+    .yhao-cells_checkbox & {
+        & + .weui-icon-checked_2{
+            &:before {
+                display: block;
+                content: '\EA06';
+                color: #cccccc;
+                font-size: 24px;
+            }
+        }
+        &:checked {
+            & + .weui-icon-checked_1 {
+                &:before {
+                    display: block;
+                    content: '\EA08';
+                    color: #09BB07;
+                    font-size: 16px;
+                }
+            }
+            & + .weui-icon-checked_2 {
+                &:before {
+                    display: block;
+                    content: '\EA06';
+                    color: #ff5b5a;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+/*底部1像素*/
+.weui-article {
+  padding: 20px 15px;
+  font-size: 15px;
+}
+.weui-article section {
+  margin-bottom: 1.5em;
+}
+.weui-article h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: .9em;
+}
+.weui-article h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: .34em;
+}
+.weui-article h3 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: .34em;
+}
+.weui-article * {
+  max-width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+.weui-article p {
+  margin: 0 0 .8em;
+}
+.yhao-h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: .9em;
+  color: #333333;
+}
+.yhao-h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: .34em;
+  color: #333333;
+}
+.yhao-h3 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: .34em;
+  color: #333333;
+}

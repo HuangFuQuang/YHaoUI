@@ -1,0 +1,47 @@
+@import "../../base/fn";
+
+.yhao-cells_order {
+  position: relative;
+  color: #666666;
+  margin-bottom: 0;
+  .yhao-cell{
+    display: block;
+  }
+  .yhao-cell__hd {
+    padding-right: @weuiCellInnerGapH;
+    width: 27.5%;
+    color: #666666!important;
+    float: left;
+    display: table;
+    height: 42px;
+    p{
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  .yhao-cell__bd{
+    i{
+      &:before{
+        font-size: 14px;
+      }
+    }
+    float: left;
+    margin-top: 13px;
+  }
+  .yhao-cell__ft{
+  }
+  .yhao-cell__fd{
+    width: 100%;
+    clear: both;
+    .yhao-cell_fd_num{
+      float: right;
+      margin-right: 114px;
+      color: #999999;
+    }
+  }
+  .yhao-cell__bz{
+    width: 25%;
+    font-size: 14px;
+    color: #999999;
+  }
+  }

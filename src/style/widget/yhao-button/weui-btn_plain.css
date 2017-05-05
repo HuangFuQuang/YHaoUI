@@ -1,0 +1,40 @@
+/*底部1像素*/
+.weui-btn_plain-primary {
+  color: #1aad19;
+  border: 1px solid #1aad19;
+}
+.weui-btn_plain-primary:not(.weui-btn_plain-disabled):active {
+  color: rgba(26, 173, 25, 0.6);
+  border-color: rgba(26, 173, 25, 0.6);
+}
+.weui-btn_plain-primary:after {
+  border-width: 0;
+}
+.weui-btn_plain-default {
+  color: #353535;
+  border: 1px solid #e4e4e4;
+}
+.weui-btn_plain-default:not(.weui-btn_plain-disabled):active {
+  color: rgba(53, 53, 53, 0.6);
+  border-color: rgba(53, 53, 53, 0.6);
+}
+.weui-btn_plain-default:after {
+  border-width: 0;
+}
+.yhao-btn_plain_default {
+  color: #ffffff;
+  border: 1px solid #e4e4e4;
+  line-height: 28px!important;
+}
+.yhao-btn_plain_default:not(.weui-btn_plain-disabled):active {
+  color: rgba(53, 53, 53, 0.6);
+  border-color: rgba(53, 53, 53, 0.6);
+}
+.yhao-btn_plain_default i,
+.yhao-btn_plain_default:before {
+  color: #ff5b5a;
+}
+.weui-btn_plain-disabled {
+  color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}

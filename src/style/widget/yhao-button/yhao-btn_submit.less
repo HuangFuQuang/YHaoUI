@@ -1,0 +1,34 @@
+@import "../../base/fn";
+
+.yhao-btn_submit {
+  background-color: @yhaoLeftActive;
+  &:not(.weui-btn_disabled):visited {
+    color: @weuiBtnFontColor;
+  }
+  &:not(.weui-btn_disabled):active {
+    color: @weuiBtnActiveFontColor;
+    background-color: @weuiBtnWarnActiveBg;
+  }
+}
+.yhao-btn_back{
+  background-color: #ffffff;
+  color: @weuiBtnDefaultFontColor;
+  &:not(.weui-btn_disabled):visited {
+    color: @weuiBtnDefaultFontColor;
+  }
+  &:not(.weui-btn_disabled):active {
+    color: @weuiBtnDefaultActiveFontColor;
+    background-color: @weuiBtnDefaultActiveBg;
+  }
+}
+.yhao-btn_save{
+  background-color: rgb(255,198,0);
+  color: #ffffff;
+  &:not(.weui-btn_disabled):visited {
+    color: #ffffff;
+  }
+  &:not(.weui-btn_disabled):active {
+    color: @weuiBtnActiveFontColor;
+    background-color: @weuiBtnDefaultActiveBg;
+  }
+}

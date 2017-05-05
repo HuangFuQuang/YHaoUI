@@ -1,0 +1,123 @@
+/*底部1像素*/
+.weui-tabbar {
+  display: flex;
+  position: absolute;
+  z-index: 500;
+  bottom: 0;
+  width: 100%;
+  background-color: #F7F7FA;
+}
+.weui-tabbar:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #c0bfc4;
+  color: #c0bfc4;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+.weui-tabbar__item {
+  display: block;
+  flex: 1;
+  padding: 5px 0 0;
+  font-size: 0;
+  color: #999999;
+  text-align: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon,
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i,
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
+  color: #09BB07;
+}
+.weui-tabbar__icon {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+}
+i.weui-tabbar__icon,
+.weui-tabbar__icon > i {
+  font-size: 24px;
+  color: #999999;
+}
+.weui-tabbar__icon img {
+  width: 100%;
+  height: 100%;
+}
+.weui-tabbar__label {
+  text-align: center;
+  color: #999999;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.weui-navbar {
+  display: flex;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+.weui-navbar:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px solid #cccccc;
+  color: #cccccc;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+.weui-navbar + .weui-tab__panel {
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.weui-navbar__item {
+  position: relative;
+  display: block;
+  flex: 1;
+  padding: 13px 0;
+  text-align: center;
+  font-size: 15px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.weui-navbar__item:active {
+  background-color: #EDEDED;
+}
+.weui-navbar__item.weui-bar__item_on {
+  background-color: #EAEAEA;
+}
+.weui-navbar__item:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  bottom: 0;
+  border-right: 1px solid #cccccc;
+  color: #cccccc;
+  transform-origin: 100% 0;
+  transform: scaleX(0.5);
+}
+.weui-navbar__item:last-child:after {
+  display: none;
+}
+.weui-tab {
+  position: relative;
+  height: 100%;
+}
+.weui-tab__panel {
+  box-sizing: border-box;
+  height: 100%;
+  padding-bottom: 50px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.weui-tab__content {
+  display: none;
+}

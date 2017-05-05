@@ -1,0 +1,23 @@
+/*底部1像素*/
+.weui-btn_default {
+  color: #000000;
+  background-color: #e4e4e4;
+}
+.weui-btn_default:not(.weui-btn_disabled):visited {
+  color: #000000;
+}
+.weui-btn_default:not(.weui-btn_disabled):active {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #dedede;
+}
+.yhao-btn_default {
+  color: #ff5b5a;
+  background-color: #f4f4f4;
+}
+.yhao-btn_default:not(.weui-btn_disabled):visited {
+  color: #ff5b5a;
+}
+.yhao-btn_default:not(.weui-btn_disabled):active {
+  color: #ff5b5a;
+  background-color: #dedede;
+}

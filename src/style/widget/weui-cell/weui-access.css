@@ -1,0 +1,35 @@
+/*底部1像素*/
+.weui-cell_access {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: inherit;
+}
+.weui-cell_access:active {
+  background-color: #ECECEC;
+}
+.weui-cell_access .weui-cell__ft {
+  padding-right: 13px;
+  position: relative;
+}
+.weui-cell_access .weui-cell__ft:after {
+  content: " ";
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-width: 2px 2px 0 0;
+  border-color: #c8c8cd;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: relative;
+  top: -2px;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  right: 2px;
+}
+.weui-cell_link {
+  color: #586c94;
+  font-size: 14px;
+}
+.weui-cell_link:first-child:before {
+  display: block;
+}

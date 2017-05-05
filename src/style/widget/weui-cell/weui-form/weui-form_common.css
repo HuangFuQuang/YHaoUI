@@ -1,0 +1,75 @@
+/*底部1像素*/
+.weui-label {
+  display: block;
+  width: 105px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.weui-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  background-color: transparent;
+  font-size: inherit;
+  color: inherit;
+  height: 1.5625em;
+  line-height: 1.5625;
+}
+.weui-input::-webkit-outer-spin-button,
+.weui-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.weui-textarea {
+  display: block;
+  border: 0;
+  resize: none;
+  width: 100%;
+  color: inherit;
+  font-size: 1em;
+  line-height: inherit;
+  outline: 0;
+}
+.weui-textarea-counter {
+  color: #b2b2b2;
+  text-align: right;
+}
+.weui-cell_warn .weui-textarea-counter {
+  color: #e64340;
+}
+.weui-toptips {
+  display: none;
+  position: fixed;
+  transform: translateZ(0);
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  z-index: 5000;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.weui-toptips_warn {
+  background-color: #e64340;
+}
+.weui-cells_form .weui-cell__ft {
+  font-size: 0;
+}
+.weui-cells_form .weui-icon-warn {
+  display: none;
+}
+.weui-cells_form input,
+.weui-cells_form textarea,
+.weui-cells_form label[for] {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.weui-cell_warn {
+  color: #e64340;
+}
+.weui-cell_warn .weui-icon-warn {
+  display: inline-block;
+}

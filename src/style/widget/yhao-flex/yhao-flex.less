@@ -1,0 +1,42 @@
+@import "../../base/fn";
+//flex布局需要三个步骤
+.yhao-flex-container{
+  display: -moz-box; /*Firefox*/
+  display: -webkit-box; /*Safari,Opera,Chrome*/
+  display: box;
+}
+.yhao-flexL{
+  -moz-box-flex: 0.0; /*Firefox*/
+  -webkit-box-flex: 0.0; /*Safari,Opera,Chrome*/
+  box-flex: 0.0;
+  width: @yhaoLeftNavW; /*默认值99*/
+  overflow: auto;
+  position: relative;
+}
+.yhao-flexR{
+  -moz-box-flex: 1.0; /*Firefox*/
+  -webkit-box-flex: 1.0; /*Safari,Opera,Chrome*/
+  box-flex: 1.0;
+  overflow: auto;
+}
+/*1-1主体布局*/
+.yhao-container-A{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  top: 0; /*默认值*/
+  bottom: @yhaoBottomNavH;
+  font: @weuiFontDefault;
+}
+/*1-2主体布局*/
+.yhao-container-B{
+  position: absolute;
+  overflow: auto;
+  width: 100%;
+  top: 0; /*默认值*/
+  bottom: @yhaoBottomNavH*2+6;
+  font: @weuiFontDefault;
+  &:first-child{
+    width: 100%;
+  }
+}

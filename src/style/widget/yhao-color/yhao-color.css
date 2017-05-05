@@ -1,0 +1,31 @@
+/*底部1像素*/
+.yhao-bg_Lightgrey {
+  background: #f4f4f4;
+}
+.yhao-bg_primary {
+  background: #1aad19;
+}
+.yhao-bg_success {
+  background: #ff5b5a;
+}
+.yhao-bg_info {
+  background: #2aabd2;
+}
+.yhao-bg_warning {
+  background: #f0ad4e;
+}
+.yhao-bg_danger {
+  background: #e64340;
+}
+.yhao-bg_disable {
+  background: #f7f7f7;
+}
+.yhao-fc_disable {
+  color: #cccccc!important;
+}
+.yhao-fc_primary {
+  color: #1aad19 !important;
+}
+.yhao-fc_warn {
+  color: #ff5b5a !important;
+}

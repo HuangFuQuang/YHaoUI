@@ -1,0 +1,18 @@
+/*底部1像素*/
+.weui-badge {
+  display: inline-block;
+  padding: .15em .4em;
+  min-width: 8px;
+  border-radius: 18px;
+  background-color: #ff5b5a;
+  color: #FFFFFF;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+  box-shadow: 0 1px rgba(153, 153, 153, 0.4);
+}
+.weui-badge_dot {
+  padding: .4em;
+  min-width: 0;
+}

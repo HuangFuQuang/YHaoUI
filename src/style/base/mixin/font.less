@@ -1,0 +1,15 @@
+.setfont(@font,@fontfamily) {
+  content: @font;
+  display: inline-block;
+  vertical-align: middle;
+  font: normal normal normal 14px/1 @fontfamily;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-size: 23px;
+  &:before{
+    // 平滑升级
+    display: inline-block;
+    margin-left: .2em;
+    margin-right: .2em;
+  }
+}

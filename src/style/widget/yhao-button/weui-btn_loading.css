@@ -1,0 +1,14 @@
+/*底部1像素*/
+.weui-btn_loading .weui-loading {
+  margin: -0.2em 0.34em 0 0;
+}
+.weui-btn_loading.weui-btn_primary,
+.weui-btn_loading.weui-btn_warn {
+  color: rgba(255, 255, 255, 0.6);
+}
+.weui-btn_loading.weui-btn_primary {
+  background-color: #179b16;
+}
+.weui-btn_loading.weui-btn_warn {
+  background-color: #ce3c39;
+}

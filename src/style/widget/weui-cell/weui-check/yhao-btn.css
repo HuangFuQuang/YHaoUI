@@ -1,0 +1,43 @@
+/*底部1像素*/
+.yhao-cells_btn_radio,
+.yhao-cells_btn_checkbox {
+  position: relative;
+}
+.yhao-cells_btn_radio .yhao-cell,
+.yhao-cells_btn_checkbox .yhao-cell {
+  padding: 0px;
+  padding-left: 9px;
+  padding-right: 7px;
+  width: auto;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 0px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+  color: #666666;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.yhao-cells_btn_radio .yhao-cell .yhao-cells_btn_text,
+.yhao-cells_btn_checkbox .yhao-cell .yhao-cells_btn_text {
+  font-size: 16px;
+  margin-right: 4px;
+}
+.yhao-cells_btn_radio .yhao-cell .yhao-icon-renminbi,
+.yhao-cells_btn_checkbox .yhao-cell .yhao-icon-renminbi {
+  font-size: 16px;
+  vertical-align: baseline;
+  text-indent: -1px;
+}
+.yhao-cells_btn_radio .yhao-cell .yhao-icon-renminbi:before,
+.yhao-cells_btn_checkbox .yhao-cell .yhao-icon-renminbi:before {
+  font-size: 11px;
+  margin-left: 0;
+  margin-right: -2px;
+}
+.yhao-cells_btn_radio .yhao-cell:before,
+.yhao-cells_btn_checkbox .yhao-cell:before {
+  display: none;
+}
