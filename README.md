@@ -7,16 +7,14 @@ YHaoUI是一套基于微信官方样式库weui以及开发规范的移动端基�
 
 ## 手机预览
 
-![https://weui.io](https://cloud.githubusercontent.com/assets/4652816/15662614/178efd46-2725-11e6-8952-09d7836e968d.png)
-
-[https://weui.io](https://weui.io)
-
+暂未开放
 
 ## 文档
-- YHaoUI 说明文档参考 [Wiki](https://github.com/weui/weui/wiki)
-- YHaoUI 视觉标准参考 [weui-design](https://github.com/weui/weui-design)
+- YHaoUI 说明文档参考 [Wiki](https://github.com/HuangFuQuang/YHaoUI/wiki)
+- 微信UI 说明文档参考 [Wiki](https://github.com/weui/weui/wiki)
+- 微信 视觉标准参考 [weui-design](https://github.com/weui/weui-design)
 
-## 扩展
+## 微信相关产品
 - [WeUI for 小程序 (weui-wxss)](https://github.com/weui/weui-wxss/)
 - [weui.js](https://github.com/weui/weui.js/)
 - [react-weui](https://github.com/weui/react-weui/)
