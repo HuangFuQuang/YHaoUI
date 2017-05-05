@@ -6,7 +6,7 @@ YHaoUI是一套基于微信官方样式库weui以及开发规范的移动端基�
 除了包含官方Weui所有功能外，还增加了`flex布局`、`购物车`、`侧边导航`、 `幕布`、 `icon`等组件以及元素。
 
 ## 手机预览
-
+![](https://github.com/HuangFuQuang/YHaoUI/blob/master/1493972122.png)
 [YHaoUI](https://github.com/HuangFuQuang/YHaoUI/blob/master/1493972122.png)
 
 ## 文档
