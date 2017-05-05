@@ -4,6 +4,8 @@
 
 YHaoUI是一套基于微信官方样式库weui以及开发规范的移动端基础组件库，同微信原生视觉体验一致，主要用于在微信内开发餐饮服务产品，兼容目前主流操作系统包括ios,Android,后期将增加PC端，VUE版本
 除了包含官方Weui所有功能外，还增加了`flex布局`、`购物车`、`侧边导航`、 `幕布`、 `icon`等组件以及元素。
+## 版本
+v1.0.0
 
 ## 手机预览
 ![](https://github.com/HuangFuQuang/YHaoUI/blob/master/1493972122.png)
