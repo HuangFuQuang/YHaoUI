@@ -7,7 +7,6 @@ YHaoUI是一套基于微信官方样式库weui以及开发规范的移动端基�
 
 ## 手机预览
 ![](https://github.com/HuangFuQuang/YHaoUI/blob/master/1493972122.png)
-[YHaoUI](https://github.com/HuangFuQuang/YHaoUI/blob/master/1493972122.png)
 
 ## 文档
 - YHaoUI 说明文档参考 [Wiki](https://github.com/HuangFuQuang/YHaoUI/wiki)
